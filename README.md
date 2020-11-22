@@ -18,4 +18,4 @@ Verdiğim kod ile beraber okulum olan Yıldız Teknik Üniversitesinde bir tur a
 `mavproxy.py --master tcp:127.0.0.1:5760 --out udp:127.0.0.1:14551 --out udp:<PC ID NUMARASI>:14550` kodu sayesinde de dronekit simulasyon programımız ve drone kodlarımızı birbirine bağlıyoruz. Simulasyonu görüntülemek için **apm planner2** veya **mission planner** gibi uygulamaları kullanabilirsiniz.
 <br/> 
 ### Not :
-mavproxy.py uygulaması çalıştırılması için **udp:----:14550** kısmında kendi bilgisayarımızın id numarasını vermeliyiz. 
+Simulasyon programlarımızı bu uygulamalar mavproxy.py sayesinde bağlarız. Bu işlemin başarıyla gerçekleşmesi için mavproxy.py uygulamasına **udp:----:14550** kısmında kendi bilgisayarımızın id numarasını parametre olarak vermeliyiz. 
