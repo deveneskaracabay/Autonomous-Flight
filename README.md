@@ -12,7 +12,7 @@ Verdiğim kod ile beraber okulum olan Yıldız Teknik Üniversitesinde bir tur a
 `pip install -r requirements` kodu ile gerekli olan Mavproxy, Pymavlink, Dronekit ve Dronekit-sitl paketlerine sahip olabilirsiniz.
 
 ## Simulasyonu Başlatmak
-`dronekit-sitl copter --home=41.0207561,28.8988495,0,180` kodu ile simülasyonumuzu başlatıyoruz.
+`dronekit-sitl copter --home=41.0207561,28.8988495,0,180` kodu ile simülasyonumuzu başlatıyoruz. Bu koordinatlar Yıldız Teknik Üniversitesinin **A Kapısı** adresini belirtmektedir.
 <br/> 
 
 `mavproxy.py --master tcp:127.0.0.1:5760 --out udp:127.0.0.1:14551 --out udp:<PC ID NUMARASI>:14550` kodu sayesinde de dronekit simulasyon programımız ve drone kodlarımızı birbirine bağlıyoruz. Simulasyonu görüntülemek için **apm planner2** veya **mission planner** gibi uygulamaları kullanabilirsiniz.
