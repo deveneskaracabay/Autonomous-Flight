@@ -77,5 +77,3 @@ drone.mode = VehicleMode("LAND")
 
 drone.close
 
-##  609  dronekit-sitl copter --home=41.0207561,28.8988495,0,180
-## mavproxy.py --master tcp:127.0.0.1:5760 --out udp:127.0.0.1:14551 --out udp:192.168.1.39:14550

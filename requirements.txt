@@ -1,0 +1,6 @@
+dronekit
+dronekit-sitl
+MAVProxy
+future
+pymavlink
+
