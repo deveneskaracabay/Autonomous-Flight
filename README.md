@@ -15,4 +15,7 @@ Verdiğim kod ile beraber okulum olan Yıldız Teknik Üniversitesinde bir tur a
 `dronekit-sitl copter --home=41.0207561,28.8988495,0,180` kodu ile simülasyonumuzu başlatıyoruz.
 <br/> 
 
-`mavproxy.py --master tcp:127.0.0.1:5760 --out udp:127.0.0.1:14551 --out udp:192.168.1.39:14550` kodu sayesinde de dronekit simulasyon programımız ve drone kodlarımızı birbirine bağlıyoruz. Simulasyonu görüntülemek için **apm planner2** veya **mission planner** gibi uygulamaları kullanabilirsiniz.
+`mavproxy.py --master tcp:127.0.0.1:5760 --out udp:127.0.0.1:14551 --out udp:<PC ID NUMARASI>:14550` kodu sayesinde de dronekit simulasyon programımız ve drone kodlarımızı birbirine bağlıyoruz. Simulasyonu görüntülemek için **apm planner2** veya **mission planner** gibi uygulamaları kullanabilirsiniz.
+<br/> 
+### Not :
+mavproxy.py uygulaması çalıştırılması için **udp:****<PC ID NUMARASI>:14550** kısmında kendi bilgisayarımızın id numarasını vermeliyiz. 
