@@ -9,7 +9,7 @@ Verdiğim kod ile beraber okulum olan Yıldız Teknik Üniversitesinde bir tur a
 5. Son olarak da B kapısına giderek görevi tamamlıyoruz.
 
 ## Gereksinimler
-`pip install -r requirements` kodu ile gerekli olan Mavproxy, Pymavlink, Dronekit ve Dronekit-sitl paketlerine sahip olabilirsiniz.
+`pip install -r requirements.txt` kodu ile gerekli olan Mavproxy, Pymavlink, Dronekit ve Dronekit-sitl paketlerine sahip olabilirsiniz.
 
 ## Simulasyonu Başlatmak
 `dronekit-sitl copter --home=41.0207561,28.8988495,0,180` kodu ile simülasyonumuzu başlatıyoruz. Bu koordinatlar Yıldız Teknik Üniversitesinin **A Kapısı** adresini belirtmektedir.
